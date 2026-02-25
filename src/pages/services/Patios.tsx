@@ -130,7 +130,7 @@ const Patios: React.FC = () => {
 
                 <h3 className="text-3xl font-bold text-black mb-6 mt-16 text-justify">Why Choose Goldsboro Concrete Contractor?</h3>
                 <p className="text-lg leading-relaxed text-black mb-12 text-justify">
-                  We are Goldsboro's authority on decorative concrete artistry. From the historic estates of Squirrel Lake to the modern backyards of Farragut, we have built a reputation for excellence through technical precision and unmatched creative vision. Our team manages every detail, from design curation and permitting to the final high-gloss seal. When you choose us, you're not just getting a patio—you're getting a permanent upgrade to your lifestyle.
+                  We are Goldsboro's authority on decorative concrete artistry. From the historic estates of Downtown Goldsboro to the modern backyards of Berkeley Manor, we have built a reputation for excellence through technical precision and unmatched creative vision. Our team manages every detail, from design curation and permitting to the final high-gloss seal. When you choose us, you're not just getting a patio—you're getting a permanent upgrade to your lifestyle.
                 </p>
               </div>
             </div>

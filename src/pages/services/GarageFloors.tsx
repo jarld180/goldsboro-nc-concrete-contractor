@@ -130,7 +130,7 @@ const GarageFloors: React.FC = () => {
 
                 <h3 className="text-3xl font-bold text-black mb-6 mt-16 text-justify">Why Choose Goldsboro Concrete Contractor?</h3>
                 <p className="text-lg leading-relaxed text-black mb-12 text-justify">
-                  We are Goldsboro's authority on garage floor transformation. From historic Brightmoor restorations to new developments in Farragut, we have installed over 500,000 square feet of high-performance flooring. Our commitment to using only the highest quality industrial-grade materials means your floor will look just as good in 10 years as it does today. Contact us for a detailed evaluation of your slab and a professional estimate for your project.
+                  We are Goldsboro's authority on garage floor transformation. From historic Downtown Goldsboro restorations to new developments in Berkeley Manor, we have installed over 500,000 square feet of high-performance flooring. Our commitment to using only the highest quality industrial-grade materials means your floor will look just as good in 10 years as it does today. Contact us for a detailed evaluation of your slab and a professional estimate for your project.
                 </p>
               </div>
             </div>

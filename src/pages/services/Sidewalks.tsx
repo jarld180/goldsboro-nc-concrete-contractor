@@ -41,7 +41,7 @@ const Sidewalks: React.FC = () => {
 
                 <h3 className="text-3xl font-bold text-black mb-6 mt-16 text-justify">Phase 1: Engineering for Accessibility & Safety</h3>
                 <p className="text-lg leading-relaxed text-black mb-8 text-justify">
-                  Whether you're building a residential path in Brightmoor or a commercial walkway near Downtown Goldsboro, accessibility is paramount. We follow all federal ADA guidelines and local Goldsboro regulations for cross-slope and width. Our team is expert at creating smooth transitions that are safe for strollers, wheelchairs, and guests of all mobility levels. We also utilize a 4-inch compacted aggregate base to prevent the common settlement issues that lead to "trip hazards" over time.
+                  Whether you're building a residential path in Berkeley Manor or a commercial walkway near Downtown Goldsboro, accessibility is paramount. We follow all federal ADA guidelines and local Goldsboro regulations for cross-slope and width. Our team is expert at creating smooth transitions that are safe for strollers, wheelchairs, and guests of all mobility levels. We also utilize a 4-inch compacted aggregate base to prevent the common settlement issues that lead to "trip hazards" over time.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-12 my-16 text-black text-justify">

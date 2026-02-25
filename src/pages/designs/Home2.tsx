@@ -68,7 +68,7 @@ const Home2: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
           <h2 className="text-6xl font-light tracking-tight leading-tight italic" data-aos="fade-up">"Concrete is the silent partner of architectural vision."</h2>
           <div className="w-px h-24 bg-blue-600 mx-auto" data-aos="scale-y"></div>
           <p className="text-2xl font-light leading-relaxed text-black max-w-3xl mx-auto" data-aos="fade-up">
-            Our approach in {cityName} is singular: we treat every project as a permanent installation. By balancing the geotechnical realities of the Piedmont with a commitment to pure aesthetic form, we build foundations that endure both time and scrutiny.
+            Our approach in {cityName} is singular: we treat every project as a permanent installation. By balancing the geotechnical realities of the Coastal Plain with a commitment to pure aesthetic form, we build foundations that endure both time and scrutiny.
           </p>
         </div>
       </section>
@@ -127,7 +127,7 @@ const Home2: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
         <div className="max-w-[1600px] mx-auto px-6 md:px-20 flex flex-col md:flex-row justify-between items-start gap-20">
           <h2 className="text-5xl font-light tracking-tight md:w-1/3">Regional <br/>Presence.</h2>
           <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-x-20 gap-y-12">
-            {['High Point', 'Winston-Salem', 'Burlington', 'Kernersville', 'Jamestown'].map((city, i) => (
+            {['Kinston', 'Wilson', 'Mount Olive', 'Fremont', 'La Grange', 'Dudley'].map((city, i) => (
               <Link key={city} to={`/${city.toLowerCase().replace(' ', '-')}`} className="group flex items-start justify-between border-b border-gray-100 pb-8 overflow-hidden">
                 <div className="flex items-start gap-6">
                   <span className="text-[10px] font-bold text-black">0{i + 1}</span>

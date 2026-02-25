@@ -25,41 +25,41 @@ const CityService: React.FC = () => {
 
   const contentData: Record<string, any> = {
     'mint-hill-driveways': {
-      heroDesc: `Premium concrete driveway installation and replacement for High Point homeowners. Engineered for the heavy Piedmont clay soils of Guilford County.`,
-      articleTitle: `Mastering Driveway Construction in High Point`,
-      articleText: `A driveway in High Point is more than just a place to park; it's a critical component of your property's structural integrity. Near the historic downtown and newer developments, the soil requires expert-level stabilization. We utilize a 6-inch compacted ABC stone base and high-density fiber-reinforced concrete to ensure your driveway lasts for decades without the common cracking seen in standard pours.`,
+      heroDesc: `Premium concrete driveway installation and replacement for Kinston homeowners. Engineered for the heavy clay soils of Wayne County.`,
+      articleTitle: `Mastering Driveway Construction in Kinston`,
+      articleText: `A driveway in Kinston is more than just a place to park; it's a critical component of your property's structural integrity. Near the historic downtown and newer developments, the soil requires expert-level stabilization. We utilize a 6-inch compacted ABC stone base and high-density fiber-reinforced concrete to ensure your driveway lasts for decades without the common cracking seen in standard pours.`,
       features: [
         { title: "Clay Soil Stabilization", desc: "Deep excavation and engineered stone base to prevent shrink-swell cracking." },
-        { title: "Neighborhood Matching", desc: "Artisan finishes that complement the unique aesthetic of High Point." },
+        { title: "Neighborhood Matching", desc: "Artisan finishes that complement the unique aesthetic of Kinston." },
         { title: "Precision Grading", desc: "Laser-leveled slope management to protect your home's foundation from runoff." }
       ],
       reviews: [
-        { text: "They replaced our long driveway in High Point. The crew was professional and the finish is flawless.", author: "Michael R., High Point, NC" },
-        { text: "Best concrete work we've seen in the area. They matched our existing walkway perfectly.", author: "Sarah W., High Point, NC" }
+        { text: "They replaced our long driveway in Kinston. The crew was professional and the finish is flawless.", author: "Michael R., Kinston, NC" },
+        { text: "Best concrete work we've seen in the area. They matched our existing walkway perfectly.", author: "Sarah W., Kinston, NC" }
       ],
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.1!2d-80.6467!3d35.1751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854180909090909%3A0x8854180909090909!2sMint%20Hill%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
     },
     'weddington-patios': {
-      heroDesc: `Luxury artisan stamped patios for Jamestown estates. High-end decorative finishes designed for ultimate outdoor living.`,
-      articleTitle: `High-Performance Patios for Jamestown Living`,
-      articleText: `Estate living in Jamestown demands a higher standard of concrete artistry. Our stamped patios utilize UV-stable pigments and high-solids solvent sealers to prevent the fading and wear common in large-scale outdoor projects. Whether you're in Providence or Hemby Bridge, our heat-reflective technology options keep surfaces comfortable, making your outdoor oasis the centerpiece of your property.`,
+      heroDesc: `Luxury artisan stamped patios for Mount Olive estates. High-end decorative finishes designed for ultimate outdoor living.`,
+      articleTitle: `High-Performance Patios for Mount Olive Living`,
+      articleText: `Estate living in Mount Olive demands a higher standard of concrete artistry. Our stamped patios utilize UV-stable pigments and high-solids solvent sealers to prevent the fading and wear common in large-scale outdoor projects. Whether you're in Dudley or La Grange, our heat-reflective technology options keep surfaces comfortable, making your outdoor oasis the centerpiece of your property.`,
       features: [
         { title: "Estate Grade Tech", desc: "Specialized overlays and textures that stay comfortable and look premium." },
         { title: "Weather Resistance", desc: "Industrial-grade sealers that protect against intense NC sun and storms." },
         { title: "Artisan Textures", desc: "Custom hand-staining and textures for maximum visual depth and luxury." }
       ],
       reviews: [
-        { text: "Our new patio in Jamestown is amazing. The detail in the stamping is incredible.", author: "Jennifer L., Jamestown, NC" },
-        { text: "Professional team. They handled our large-scale project with absolute precision.", author: "Robert P., Jamestown, NC" }
+        { text: "Our new patio in Mount Olive is amazing. The detail in the stamping is incredible.", author: "Jennifer L., Mount Olive, NC" },
+        { text: "Professional team. They handled our large-scale project with absolute precision.", author: "Robert P., Mount Olive, NC" }
       ],
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8!2d-80.7328!3d35.0107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885428088888888b%3A0x885428088888888b!2sJamestown%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8!2d-78.0656!3d35.1965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ae8888888888%3A0x88888888888888!2sMount%20Olive%2C%20NC!5e0!3m2!1sen!2sus!4v1704576000000!5m2!1sen!2sus"
     }
   };
 
   const current = contentData[`${city}-${service}`] || {
     heroDesc: `Elite ${serviceName} solutions for residential and commercial properties in ${cityName}, NC. Engineered for structural integrity and premium aesthetics.`,
     articleTitle: `Professional ${serviceName} Services in ${cityName}`,
-    articleText: `A ${serviceName} project in ${cityName} requires a deep understanding of North Carolina's regional variables. At Goldsboro Concrete, we provide high-end craftsmanship designed specifically for the ${cityName} environment. Our team utilizes high-density mixes and advanced reinforcement to ensure your project stands the test of time in the Guilford County region.`,
+    articleText: `A ${serviceName} project in ${cityName} requires a deep understanding of North Carolina's regional variables. At Goldsboro Concrete, we provide high-end craftsmanship designed specifically for the ${cityName} environment. Our team utilizes high-density mixes and advanced reinforcement to ensure your project stands the test of time in the Wayne County region.`,
     features: [
       { title: "Technical Precision", desc: `Laser-guided accuracy ensuring perfect levels for every ${serviceName} in ${cityName}.` },
       { title: "Structural Integrity", desc: `High-density reinforced concrete designed for ${cityName}'s specific soil dynamics.` },

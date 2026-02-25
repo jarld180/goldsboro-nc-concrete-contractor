@@ -9,7 +9,7 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Concrete Driveways",
-      description: "Engineered for durability and curb appeal. We specialize in reinforced slabs that withstand the Piedmont clay.",
+      description: "Engineered for durability and curb appeal. We specialize in reinforced slabs that withstand the Eastern NC clay.",
       link: "/driveways",
       image: "/services/driveways/option 1.webp"
     },
@@ -56,7 +56,7 @@ const Services: React.FC = () => {
               Elite Concrete <span className="text-black">Solutions</span>
             </h1>
             <p className="text-xl text-black mb-10 leading-relaxed">
-              From high-performance structural foundations to artisan decorative finishes, Goldsboro Concrete provides the technical expertise and local experience required for excellence in the North Piedmont.
+              From high-performance structural foundations to artisan decorative finishes, Goldsboro Concrete provides the technical expertise and local experience required for excellence in Eastern North Carolina.
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ const Services: React.FC = () => {
               <div key={service.slug} className="bg-white p-8 rounded-[40px] border border-gray-100 shadow-sm">
                 <h3 className="text-xl font-bold mb-6 text-black border-b border-gray-100 pb-4">{service.name} by City</h3>
                 <ul className="grid grid-cols-2 gap-4">
-                  {['High Point', 'Winston-Salem', 'Burlington', 'Kernersville', 'Jamestown'].map((city) => (
+                  {['Kinston', 'Wilson', 'Mount Olive', 'Fremont', 'La Grange', 'Dudley'].map((city) => (
                     <li key={city}>
                       <Link 
                         to={`/${city.toLowerCase().replace(' ', '-')}/${service.slug}`}

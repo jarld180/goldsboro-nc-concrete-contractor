@@ -26,7 +26,7 @@ const Driveways: React.FC = () => {
             <div className="space-y-8">
               <h3 className="text-2xl font-bold italic">The Art of the Finish</h3>
               <p className="text-lg text-black font-light leading-relaxed text-justify">
-                Beyond the structural integrity, we focus on the aesthetic value of your home. A driveway is the literal red carpet to your residence. We offer signature "picture frame" borders that provide a sophisticated, architectural look. Our broom finishes are applied with precise timing to ensure maximum slip resistance without sacrificing the clean, uniform appearance that high-end homes in neighborhoods like Squirrel Lake and Brightmoor demand. We manage all aspects of the project, from initial grading and local Goldsboro permitting to the final high-solids solvent sealing that protects your investment from oil spills, UV damage, and the intense humidity of NC summers.
+                Beyond the structural integrity, we focus on the aesthetic value of your home. A driveway is the literal red carpet to your residence. We offer signature "picture frame" borders that provide a sophisticated, architectural look. Our broom finishes are applied with precise timing to ensure maximum slip resistance without sacrificing the clean, uniform appearance that high-end homes in neighborhoods like Seymour Johnson and Berkeley Manor demand. We manage all aspects of the project, from initial grading and local Goldsboro permitting to the final high-solids solvent sealing that protects your investment from oil spills, UV damage, and the intense humidity of NC summers.
               </p>
             </div>
           </div>

@@ -63,7 +63,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6" data-aos="fade-up">Precision Engineered Concrete for {cityName}</h2>
             <p className="text-xl text-black" data-aos="fade-up" data-aos-delay="100">
-              We specialize in high-performance concrete solutions tailored for the unique soil conditions and climate of the North Piedmont.
+              We specialize in high-performance concrete solutions tailored for the unique soil conditions and climate of Eastern North Carolina.
             </p>
           </div>
 
@@ -76,10 +76,10 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   <h3 className="text-3xl font-bold">Concrete Driveways</h3>
                 </div>
                 <p className="text-black text-lg leading-relaxed mb-6">
-                  Our premium concrete driveways are engineered to withstand the expansive clay soils of Guilford County. We go beyond industry standards by utilizing a high-density mix reinforced with synthetic fibers, ensuring a 30-50 year lifecycle for your {cityName} home.
+                  Our premium concrete driveways are engineered to withstand the expansive clay soils of Wayne County. We go beyond industry standards by utilizing a high-density mix reinforced with synthetic fibers, ensuring a 30-50 year lifecycle for your {cityName} home.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
-                  From traditional broom finishes to sophisticated "picture frame" borders, we enhance curb appeal in neighborhoods like Brightmoor and Squirrel Lake with architectural precision and expert water management.
+                  From traditional broom finishes to sophisticated "picture frame" borders, we enhance curb appeal in neighborhoods like Berkeley Manor and Seymour Johnson with architectural precision and expert water management.
                 </p>
                 <div className="bg-gray-100 p-8 rounded-[32px] mb-8 border border-gray-200">
                   <h4 className="font-bold mb-3 flex items-start text-black"><CheckCircle className="w-5 h-5 mr-2" /> The {cityName} Engineering Standard</h4>
@@ -107,15 +107,15 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   <h3 className="text-3xl font-bold">Structural Foundations</h3>
                 </div>
                 <p className="text-black text-lg leading-relaxed mb-6">
-                  The strength of your building starts with the slab. We provide precision-engineered foundations for custom homes in Jamestown and Winston-Salem, utilizing industrial-grade geotechnical preparation to achieve 98% Proctor density.
+                  The strength of your building starts with the slab. We provide precision-engineered foundations for custom homes in Kinston and Wilson, utilizing industrial-grade geotechnical preparation to achieve 98% Proctor density.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
-                  Our foundation services include slab-on-grade, monolithic pours, and specialized underpinning for historic restorations in Downtown {cityName}. We manage all Guilford County inspections to ensure your project stays on schedule.
+                  Our foundation services include slab-on-grade, monolithic pours, and specialized underpinning for historic restorations in Downtown {cityName}. We manage all Wayne County inspections to ensure your project stays on schedule.
                 </p>
                 <div className="bg-gray-900 text-white p-8 rounded-[32px] mb-8 shadow-xl">
                   <h4 className="font-bold mb-3 flex items-start text-white"><CheckCircle className="w-5 h-5 mr-2 text-green-400" /> Structural Protection</h4>
                   <p className="text-gray-400 text-sm leading-relaxed">
-                    We incorporate high-grade poly vapor barriers as standard practice, protecting your structure from the high water tables of Piedmont.
+                    We incorporate high-grade poly vapor barriers as standard practice, protecting your structure from the high water tables of Eastern NC.
                   </p>
                 </div>
                 <Link to={cityName === "Goldsboro" ? "/foundations" : `/${cityName.toLowerCase().replace(" ", "-")}/foundations`} className="font-bold flex items-start group text-black">
@@ -132,7 +132,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   <h3 className="text-3xl font-bold">Artisan Stamped Patios</h3>
                 </div>
                 <p className="text-black text-lg leading-relaxed mb-6">
-                  Elevate your outdoor living with artisan stamped concrete that rivals luxury resorts. Our seamless, reinforced slabs eliminate the weed growth and shifting issues common with traditional pavers in High Point and Kernersville.
+                  Elevate your outdoor living with artisan stamped concrete that rivals luxury resorts. Our seamless, reinforced slabs eliminate the weed growth and shifting issues common with traditional pavers in Kinston and Wilson.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
                   Choose from our signature {cityName} collections, including Historic Goldsboro Slate and Six-Mile Wood Plank, all finished with UV-resistant pigments and high-solids solvent sealers.
@@ -157,7 +157,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   <h3 className="text-3xl font-bold">Luxury Pool Decks</h3>
                 </div>
                 <p className="text-black text-lg leading-relaxed mb-6">
-                  Safety meets style with our slip-resistant, cool-touch concrete pool surrounds. Specifically engineered for salt-water systems common in Providence, our decks utilize silane-siloxane sealers to prevent the surface pitting.
+                  Safety meets style with our slip-resistant, cool-touch concrete pool surrounds. Specifically engineered for salt-water systems common in Wayne County, our decks utilize silane-siloxane sealers to prevent the surface pitting.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
                   Our heat-reflective technology keeps surfaces up to 20% cooler, making it perfect for bare feet during North Carolina's intense 90-degree July afternoons.
@@ -179,7 +179,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   Transform your garage into a high-performance showroom. We specialize in industrial-grade Polyaspartic coatings that are 4x more durable than standard epoxy and 100% UV stable for {cityName} car enthusiasts.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
-                  Our process includes professional diamond grinding and MVT-mitigation primers to solve the "sweating slab" issues common in Guilford County homes.
+                  Our process includes professional diamond grinding and MVT-mitigation primers to solve the "sweating slab" issues common in Wayne County homes.
                 </p>
                 <Link to={cityName === "Goldsboro" ? "/garage-floors" : `/${cityName.toLowerCase().replace(" ", "-")}/garage-floors`} className="font-bold flex items-start group text-black">
                   Upgrade Your Garage <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -204,7 +204,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
                   Enhance accessibility and curb appeal with ADA-compliant architectural walkways. We handle all Town of {cityName} Right-of-Way permits and design precision-graded paths that guide guests with elegance.
                 </p>
                 <p className="text-black text-lg leading-relaxed mb-8">
-                  Whether it's a historic manor path on Trade Street or a modern winding entry in Brightmoor, our "broom-and-border" finishes provide the perfect blend of safety and masonry-style aesthetics.
+                  Whether it's a historic manor path in Downtown Goldsboro or a modern winding entry in Berkeley Manor, our "broom-and-border" finishes provide the perfect blend of safety and masonry-style aesthetics.
                 </p>
                 <Link to={cityName === "Goldsboro" ? "/sidewalks" : `/${cityName.toLowerCase().replace(" ", "-")}/sidewalks`} className="font-bold flex items-start group text-black">
                   Plan Your Walkway <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -231,7 +231,7 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
               <span className="inline-block px-4 py-1.5 bg-gray-100 rounded-full text-sm font-bold tracking-wider uppercase text-black mb-6">Our Local Legacy</span>
               <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-black">The Standard of Concrete Excellence in {cityName}.</h2>
               <p className="text-xl text-black mb-6 leading-relaxed">
-                Founded on the principles of integrity and technical mastery, Goldsboro Concrete has grown into Guilford County's most trusted partner for high-end residential and commercial builds.
+                Founded on the principles of integrity and technical mastery, Goldsboro Concrete has grown into Wayne County's most trusted partner for high-end residential and commercial builds.
               </p>
               <p className="text-lg text-black mb-10 leading-relaxed">
                 Our team combines decades of artisanal experience with modern engineering standards. We don't just pour slabs; we build the reinforced foundations that local families and businesses rely on for generations.
@@ -256,21 +256,21 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
         <div className="max-w-[1600px] mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-black" data-aos="fade-up">Trusted by the {cityName} Community</h2>
-            <p className="text-xl text-black" data-aos="fade-up" data-aos-delay="100">See why your neighbors in Guilford County choose Goldsboro Concrete.</p>
+            <p className="text-xl text-black" data-aos="fade-up" data-aos-delay="100">See why your neighbors in Wayne County choose Goldsboro Concrete.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { text: "Their team handled the foundation for our custom home in Jamestown perfectly. The level of communication was outstanding.", author: "Michael S., Goldsboro, NC" },
-              { text: "The new stamped patio they designed for us in High Point is beautiful. It's completely changed how we use our backyard.", author: "Sarah J., Goldsboro, NC" },
-              { text: "Professional, clean, and fast. They replaced our long driveway in Brightmoor in just three days. Highly recommend.", author: "Robert D., Goldsboro, NC" },
+              { text: "Their team handled the foundation for our custom home in Mount Olive perfectly. The level of communication was outstanding.", author: "Michael S., Goldsboro, NC" },
+              { text: "The new stamped patio they designed for us in Kinston is beautiful. It's completely changed how we use our backyard.", author: "Sarah J., Goldsboro, NC" },
+              { text: "Professional, clean, and fast. They replaced our long driveway in Berkeley Manor in just three days. Highly recommend.", author: "Robert D., Goldsboro, NC" },
               { text: "Best concrete contractors in Goldsboro. They did our garage floor with polyaspartic coating and it looks like a showroom.", author: "James L., Goldsboro, NC" },
-              { text: "Very impressed with their attention to detail on our pool deck. It's slip-resistant and stays cool in the sun.", author: "Emily W., Winston-Salem, NC" },
+              { text: "Very impressed with their attention to detail on our pool deck. It's slip-resistant and stays cool in the sun.", author: "Emily W., Wilson, NC" },
               { text: "High quality work and very professional crew. They handled all the permitting for our new sidewalk on Trade St.", author: "David K., Downtown Goldsboro" },
-              { text: "We've used them for three different projects now. They are the only concrete team we trust in Guilford County.", author: "Linda M., Burlington, NC" },
-              { text: "The foundation they poured for our addition was perfect. Passed all inspections without a single issue.", author: "Chris P., Kernersville, NC" },
+              { text: "We've used them for three different projects now. They are the only concrete team we trust in Wayne County.", author: "Linda M., Fremont, NC" },
+              { text: "The foundation they poured for our addition was perfect. Passed all inspections without a single issue.", author: "Chris P., La Grange, NC" },
               { text: "Amazing transformation of our old cracked driveway. The new finish with the picture frame border is stunning.", author: "Nancy T., Goldsboro, NC" },
-              { text: "Great experience from start to finish. The quote was transparent and the work was completed on schedule.", author: "Kevin B., Winston-Salem, NC" },
-              { text: "Their knowledge of local soil conditions really showed. They took extra steps to ensure our slab won't crack.", author: "Patricia G., Jamestown, NC" },
+              { text: "Great experience from start to finish. The quote was transparent and the work was completed on schedule.", author: "Kevin B., Wilson, NC" },
+              { text: "Their knowledge of local soil conditions really showed. They took extra steps to ensure our slab won't crack.", author: "Patricia G., Dudley, NC" },
               { text: "Excellent customer service. They took the time to explain all our decorative options for the back patio.", author: "Steven R., Goldsboro, NC" }
             ].map((t, i) => (
               <div key={i} className="bg-white p-8 rounded-[32px] shadow-sm border border-black/5 hover:shadow-xl transition-all" data-aos="fade-up" data-aos-delay={(i % 3) * 100}>
@@ -288,13 +288,13 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-black" data-aos="fade-up">Common Questions</h2>
-            <p className="text-xl text-black" data-aos="fade-up" data-aos-delay="100">Everything you need to know about our process in Guilford County.</p>
+            <p className="text-xl text-black" data-aos="fade-up" data-aos-delay="100">Everything you need to know about our process in Wayne County.</p>
           </div>
           <div className="space-y-6">
             {[
               { q: "How long does a standard driveway project take?", a: "Typically, a full driveway replacement in Goldsboro takes between 3 to 5 days, depending on weather and site preparation requirements." },
               { q: "What concrete mix do you use for foundations?", a: "We utilize a high-density certified mix as our structural standard, exceeding local building codes for maximum durability." },
-              { q: "Do you handle local permits and inspections?", a: "Yes, we manage all coordination with the Town of Goldsboro and Guilford County building departments, including 811 utility locates and final inspections." },
+              { q: "Do you handle local permits and inspections?", a: "Yes, we manage all coordination with the City of Goldsboro and Wayne County building departments, including 811 utility locates and final inspections." },
               { q: "Is stamped concrete slippery when wet?", a: "We incorporate specialized anti-slip additives into our high-solids solvent sealers to ensure a safe, slip-resistant surface even in rainy NC weather." }
             ].map((faq, i) => (
               <div key={i} className="bg-gray-50 rounded-3xl p-8 hover:bg-gray-100 transition-colors cursor-pointer group" data-aos="fade-up">
@@ -314,18 +314,19 @@ const Home: React.FC<HomeProps> = ({ cityName = "Goldsboro" }) => {
         <div className="max-w-[1600px] mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-20 items-start">
             <div data-aos="fade-right">
-              <h2 className="text-4xl md:text-5xl font-extrabold mb-8">Serving {cityName} & Guilford County</h2>
+              <h2 className="text-4xl md:text-5xl font-extrabold mb-8">Serving {cityName} & Wayne County</h2>
               <p className="text-xl text-black mb-12">
                 We are proud to be the premier concrete choice for the entire region. From historic downtowns to new developments.
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                 {[
                   { name: 'Downtown Goldsboro', path: '/' },
-                  { name: 'High Point', path: '/high-point' },
-                  { name: 'Winston-Salem', path: '/winston-salem' },
-                  { name: 'Burlington', path: '/burlington' },
-                  { name: 'Kernersville', path: '/kernersville' },
-                  { name: 'Jamestown', path: '/jamestown' },
+                  { name: 'Kinston', path: '/kinston' },
+                  { name: 'Wilson', path: '/wilson' },
+                  { name: 'Mount Olive', path: '/mount-olive' },
+                  { name: 'Fremont', path: '/fremont' },
+                  { name: 'La Grange', path: '/la-grange' },
+                  { name: 'Dudley', path: '/dudley' },
                 ].map((city) => (
                   <Link key={city.name} to={city.path} className="flex items-start space-x-3 text-black font-semibold hover:text-black transition-colors group">
                     <MapPin className="w-5 h-5 text-black group-hover:text-black transition-colors" />

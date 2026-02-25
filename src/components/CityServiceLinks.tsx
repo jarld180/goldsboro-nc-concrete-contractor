@@ -9,11 +9,12 @@ interface CityServiceLinksProps {
 
 const cities = [
   { name: 'Goldsboro', path: '' },
-  { name: 'High Point', path: 'high-point' },
-  { name: 'Winston-Salem', path: 'winston-salem' },
-  { name: 'Burlington', path: 'burlington' },
-  { name: 'Kernersville', path: 'kernersville' },
-  { name: 'Jamestown', path: 'jamestown' },
+  { name: 'Kinston', path: 'kinston' },
+  { name: 'Wilson', path: 'wilson' },
+  { name: 'Mount Olive', path: 'mount-olive' },
+  { name: 'Fremont', path: 'fremont' },
+  { name: 'La Grange', path: 'la-grange' },
+  { name: 'Dudley', path: 'dudley' },
 ];
 
 const CityServiceLinks: React.FC<CityServiceLinksProps> = ({ serviceSlug, serviceName }) => {
@@ -22,7 +23,7 @@ const CityServiceLinks: React.FC<CityServiceLinksProps> = ({ serviceSlug, servic
       <div className="max-w-[1600px] mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-black mb-4">Local {serviceName} Experts Near You</h2>
-          <p className="text-black max-w-2xl mx-auto">We provide professional {serviceName.toLowerCase()} services across Guilford County. Select your city for localized details.</p>
+          <p className="text-black max-w-2xl mx-auto">We provide professional {serviceName.toLowerCase()} services across Wayne County. Select your city for localized details.</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {cities.map((city) => (
